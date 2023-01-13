@@ -46,11 +46,25 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd email_sender_python
 ```
 
 Install dependencies
 
 ```bash
-  pip install
+  pip install -r requirements.txt
+
+```  
+You can also use pipenv or conda to install dependencies, depending on your environment.  
+
+ - This command will install all packages from pipfile.lock
+```bash
+pipenv install
 ```
+
+ - This command will create a new conda environment with all the dependencies specified in the environment.yml file.
+```bash
+conda env create -f environment.yml
+```
+
+Please make sure to use the appropriate command according to your environment and the tool you have used for managing the dependencies.
